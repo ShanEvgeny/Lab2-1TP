@@ -67,7 +67,6 @@
             label1.Size = new Size(185, 20);
             label1.TabIndex = 3;
             label1.Text = "Вложенная в банк сумма";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -85,7 +84,6 @@
             label3.Size = new Size(401, 20);
             label3.TabIndex = 5;
             label3.Text = "Сумма вкзала через определенное количесвто месяцев";
-            label3.Click += label3_Click;
             // 
             // label4
             // 
@@ -121,7 +119,6 @@
             Controls.Add(textBox1);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

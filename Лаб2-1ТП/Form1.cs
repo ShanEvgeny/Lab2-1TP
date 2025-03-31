@@ -9,20 +9,6 @@ namespace Лаб2_1ТП
             textBox2.Text = Properties.Settings.Default.textBox2.ToString();
             textBox3.Text = Properties.Settings.Default.textBox3.ToString();
         }
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
         private void button1_Click(object sender, EventArgs e)
         {
             double a, b, c;
@@ -32,7 +18,7 @@ namespace Лаб2_1ТП
                 b = double.Parse(textBox2.Text);
                 c = double.Parse(textBox3.Text);
             }
-            catch (FormatException) 
+            catch (FormatException)
             {
                 MessageBox.Show("Некорректный ввод", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
